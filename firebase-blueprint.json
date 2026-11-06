@@ -1,0 +1,58 @@
+{
+  "entities": {
+    "StudentProfile": {
+      "title": "Student Profile",
+      "description": "Profile data for Deepika or Sonali in Study Besties",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 32 },
+        "name": { "type": "string", "maxLength": 64 },
+        "targetScore": { "type": "string", "maxLength": 64 },
+        "favoriteSubject": { "type": "string", "maxLength": 64 },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "name"]
+    },
+    "ChapterProgress": {
+      "title": "Chapter Progress",
+      "description": "Progress of a student on a specific CBSE chapter",
+      "type": "object",
+      "properties": {
+        "studentId": { "type": "string", "maxLength": 32 },
+        "chapterId": { "type": "string", "maxLength": 64 },
+        "subjectId": { "type": "string", "maxLength": 32 },
+        "completed": { "type": "boolean" },
+        "completedAt": { "type": "string" }
+      },
+      "required": ["studentId", "chapterId", "completed"]
+    },
+    "QuizAttempt": {
+      "title": "Quiz Attempt",
+      "description": "Recorded quiz attempt for Section A or Section B",
+      "type": "object",
+      "properties": {
+        "studentId": { "type": "string", "maxLength": 32 },
+        "chapterId": { "type": "string", "maxLength": 64 },
+        "section": { "type": "string", "enum": ["mcq", "written"] },
+        "score": { "type": "number" },
+        "attemptedCount": { "type": "number" },
+        "attemptedAt": { "type": "string" }
+      },
+      "required": ["studentId", "chapterId", "section", "score"]
+    }
+  },
+  "firestore": {
+    "/students/{studentId}": {
+      "schema": "StudentProfile",
+      "description": "Student profile document for authorized students"
+    },
+    "/students/{studentId}/progress/{chapterId}": {
+      "schema": "ChapterProgress",
+      "description": "Chapter completion record"
+    },
+    "/students/{studentId}/attempts/{attemptId}": {
+      "schema": "QuizAttempt",
+      "description": "Student quiz attempts"
+    }
+  }
+}

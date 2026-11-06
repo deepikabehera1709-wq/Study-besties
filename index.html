@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Study Besties - CBSE Class 12 Planner & Quizzes</title>
+    <meta name="description" content="CBSE Class 12 study planner, chapter-wise independent quizzes, study hour tracking, and best-friend progress sharing for Deepika & Sonali." />
+    <meta property="og:title" content="Study Besties - CBSE Class 12 Planner & Quizzes" />
+    <meta property="og:description" content="CBSE Class 12 study planner, chapter-wise independent quizzes, study hour tracking, and best-friend progress sharing for Deepika & Sonali." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#8b5cf6" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="StudyBesties" />
+    <link rel="apple-touch-icon" href="/icon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <script>
+      // Suppress ambient WebSocket errors from Vite dev server when running inside preview iframes
+      window.addEventListener('error', function(e) {
+        if (e.message && e.message.includes('WebSocket')) {
+          e.stopImmediatePropagation();
+          e.preventDefault();
+        }
+      });
+      window.addEventListener('unhandledrejection', function(e) {
+        if (e.reason && (e.reason.message?.includes('WebSocket') || String(e.reason).includes('WebSocket'))) {
+          e.stopImmediatePropagation();
+          e.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

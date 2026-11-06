@@ -1,0 +1,6 @@
+{
+  "name": "Study Besties - CBSE Class 12 Planner & Quizzes",
+  "description": "CBSE Class 12 study planner, chapter-wise independent quizzes, study hour tracking, and best-friend progress sharing for Deepika & Sonali.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

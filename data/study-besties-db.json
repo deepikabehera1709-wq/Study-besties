@@ -1,0 +1,175 @@
+{
+  "deepika": {
+    "id": "deepika",
+    "name": "Deepika",
+    "avatar": "🌸",
+    "pin": "1234",
+    "bio": "Dreaming of 98% in CBSE 12th! Physics & Computer Science lover ✨",
+    "targetPercent": 98,
+    "favoriteSubject": "physics",
+    "theme": "lavender",
+    "completedChapters": {
+      "phy-ch3": {
+        "completedAt": "2026-11-06T14:19:56.426Z",
+        "notes": "Revised Kirchhoff's rules and Wheatstone bridge formula thoroughly!"
+      }
+    },
+    "quizAttempts": [
+      {
+        "id": "attempt-d1",
+        "studentId": "deepika",
+        "chapterId": "phy-ch3",
+        "subjectId": "physics",
+        "chapterTitle": "Current Electricity",
+        "section": "mcq",
+        "score": 10,
+        "totalQuestions": 10,
+        "attemptedCount": 10,
+        "userAnswers": {},
+        "date": "2026-11-06T16:19:56.426Z",
+        "timeSpentSeconds": 420,
+        "passed": true
+      }
+    ],
+    "studyHours": {
+      "todayHours": 3.5,
+      "totalHours": 42.5,
+      "weeklyGoalHours": 25,
+      "dailyHistory": {
+        "2026-11-01": 4,
+        "2026-11-02": 3.5,
+        "2026-11-03": 5,
+        "2026-11-04": 4.5,
+        "2026-11-05": 3,
+        "2026-11-06": 3.5
+      }
+    },
+    "tasks": [
+      {
+        "id": "task-d1",
+        "studentId": "deepika",
+        "title": "Solve 10 written questions of Current Electricity",
+        "subjectId": "physics",
+        "dueDate": "2026-11-07",
+        "completed": false,
+        "priority": "high",
+        "createdAt": "2026-11-06T18:19:56.426Z"
+      },
+      {
+        "id": "task-d2",
+        "studentId": "deepika",
+        "title": "Revise Python pickle module and file handling modes",
+        "subjectId": "computer_science",
+        "dueDate": "2026-11-08",
+        "completed": true,
+        "priority": "medium",
+        "createdAt": "2026-11-06T18:19:56.426Z"
+      }
+    ],
+    "reminders": {
+      "enabled": true,
+      "dailyReminderTime": "19:30",
+      "notifyOnChapterComplete": true,
+      "notifyOnQuizUnlock": true,
+      "unfinishedChaptersReminder": true
+    },
+    "lastActive": "2026-11-06T18:19:56.426Z"
+  },
+  "sonali": {
+    "id": "sonali",
+    "name": "Sonali",
+    "avatar": "🌺",
+    "pin": "5678",
+    "bio": "Board topper in making! Chemistry and English enthusiast 📖💜",
+    "targetPercent": 97,
+    "favoriteSubject": "chemistry",
+    "theme": "soft-purple",
+    "completedChapters": {
+      "chem-ch2": {
+        "completedAt": "2026-11-06T10:19:56.426Z",
+        "notes": "Mastered Nernst Equation and Kohlrausch Law problems."
+      }
+    },
+    "quizAttempts": [
+      {
+        "id": "attempt-s1",
+        "studentId": "sonali",
+        "chapterId": "chem-ch2",
+        "subjectId": "chemistry",
+        "chapterTitle": "Electrochemistry",
+        "section": "mcq",
+        "score": 9,
+        "totalQuestions": 10,
+        "attemptedCount": 10,
+        "userAnswers": {},
+        "date": "2026-11-06T12:19:56.426Z",
+        "timeSpentSeconds": 380,
+        "passed": true
+      }
+    ],
+    "studyHours": {
+      "todayHours": 4,
+      "totalHours": 39,
+      "weeklyGoalHours": 25,
+      "dailyHistory": {
+        "2026-11-01": 3.5,
+        "2026-11-02": 4,
+        "2026-11-03": 4.5,
+        "2026-11-04": 3.5,
+        "2026-11-05": 4.2,
+        "2026-11-06": 4
+      }
+    },
+    "tasks": [
+      {
+        "id": "task-s1",
+        "studentId": "sonali",
+        "title": "Practice Kohlrausch law numericals in Electrochemistry",
+        "subjectId": "chemistry",
+        "dueDate": "2026-11-07",
+        "completed": true,
+        "priority": "high",
+        "createdAt": "2026-11-06T18:19:56.426Z"
+      },
+      {
+        "id": "task-s2",
+        "studentId": "sonali",
+        "title": "Read Deep Water theme and write Roosevelt quote analysis",
+        "subjectId": "english",
+        "dueDate": "2026-11-08",
+        "completed": false,
+        "priority": "medium",
+        "createdAt": "2026-11-06T18:19:56.426Z"
+      }
+    ],
+    "reminders": {
+      "enabled": true,
+      "dailyReminderTime": "20:00",
+      "notifyOnChapterComplete": true,
+      "notifyOnQuizUnlock": true,
+      "unfinishedChaptersReminder": true
+    },
+    "lastActive": "2026-11-06T18:19:56.426Z"
+  },
+  "bestieNudges": [
+    {
+      "id": "nudge-1",
+      "from": "deepika",
+      "to": "sonali",
+      "text": "Hey Sonali! I just solved the Physics Chapter 3 Quiz! Let’s crush Boards together! 🚀",
+      "emoji": "💜",
+      "timestamp": "2026-11-06T16:19:56.426Z",
+      "type": "cheer"
+    },
+    {
+      "id": "nudge-2",
+      "from": "sonali",
+      "to": "deepika",
+      "text": "Proud of you Deepika! Electrochemistry notes are ready for our study session! 🌸",
+      "emoji": "✨",
+      "timestamp": "2026-11-06T17:19:56.426Z",
+      "type": "high-five"
+    }
+  ],
+  "lastSyncedAt": "2026-11-06T18:19:56.426Z"
+}

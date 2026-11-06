@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "Study Besties - CBSE Class 12",
+  "short_name": "StudyBesties",
+  "description": "CBSE Class 12 study planner, chapter-wise independent quizzes, study hour tracking, and best-friend progress sharing for Deepika & Sonali.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fbfbfe",
+  "theme_color": "#8b5cf6",
+  "categories": ["education", "productivity", "study"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
